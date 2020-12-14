@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CHESS GAME</title>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+        
+                <h1 class="welcome">    <p style="color:burlywood">WELCOME TO MY CHESS ROOM!</p>
+                </h1>
+            <img class="Surot" src="https://wallpapercave.com/wp/wp2418790.png" alt="Trulli" width="800" height="500">
+            <img class="Srot" src="http://2.bp.blogspot.com/-cNx94_8sJv8/UcE_KzGFl1I/AAAAAAAAAaM/2Hfxb3nPHIc/s1600/chessstuffs.blogspot+%289%29.jpg" alt="Trul" width="800" height="500">
+            <br />
+            <br />
+            <br />
+
+    <div class="container">
+        <form action='/fortune_results' method='POST'>
+            PLAYER NAME:
+            <input type='text' name='Players Username' placeholder="Username">
+            <br />
+            <br />
+           EXPERIENCE:
+            
+            <select>
+                <option value="volvo">less than 1 year</option>
+                <option value="saab">1-2</option>
+                <option value="opel">2-5</option>
+                <option value="audi">5+</option>
+            </select>
+            <br />
+            <br />
+            GENDER:
+            <br />
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other <br>
+            <br />
+            <br />
+            TYPE OF FAVORITE CHESS GAME:
+            <br />
+            <input type="radio" id="gtype" name="type" value="Standard"> Standard<br>
+            <input type="radio" id="gtype" name="type" value="Untimed"> Untimed<br>
+            <input type="radio" id="gtype" name="type" value="Wild"> Wild<br>
+            <input type="radio" id="gtype" name="type" value="Blitz"> Blitz<br>
+
+            <br />
+            <br />
+
+            <input type='submit' value='Submit!'>
+        
+        </form>
+
+    </div>
+    <br />
+    <br />
+    <footer>
+        2019
+    </footer>
+    <br />
+        
+    </body>
+    
+
+</html>
